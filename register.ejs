@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta http-equiv="X-UA-Compatible" content="ie=edge">
+<link href="https://fonts.googleapis.com/css?family=Nunito&display=swap" rel="stylesheet">
+<title>Alumini Tracking System</title>
+</head>
+<style>
+*{box-sizing: border-box;}
+body {
+font-family: 'Nunito', sans-serif;
+color: #384047;
+}
+form {
+max-width: 600px;
+margin: 10px auto;
+padding: 10px 20px;
+background: #f4f7f8;
+border-radius: 8px;
+}
+h1 {
+margin: 0 0 30px 0;
+text-align: center;
+}
+input[type="text"],
+input[type="email"],
+input[type="password"],
+input[type="date"],
+textarea{
+background: gba(255,255,255,0.1);
+border:none;
+font-size: 16px;
+height: auto;
+margin: 0;
+outline: 0;
+padding: 15px;
+width: 100%;
+background-color:#e8eeef;
+color:#8a97a0;
+box-shadow:0 1px 0 rgb(0,0,0,0.3) insert;
+margin-bottom:30px;
+}
+input:focus, textarea:focus{
+box-shadow: 0 0 5px rgba(81,203,238,1);
+border:1px solid rgba(81,203,238,1);
+}
+fieldset {
+margin-bottom: 30px;
+border: none;
+}
+legend {
+display:block;
+margin-bottom: 8px;
+}
+.section {
+background-color:#5fcf80;
+color:#fff;
+height : 30px;
+width:30px;
+display: inline-block;
+font-size:0.8em;
+margin-right:4px;
+line-height:30px;
+text-align:center;
+text-shadow: 0 1px 0 rgba(255,255,255,0.2);
+border-radius:100%;
+}
+button {
+padding: 19px 39px 18px 39px;
+color: #FFF;
+background-color: #4bc970;
+font-size: 18px;
+text-align: center;
+font-style: normal;
+border-radius: 5px;
+width:100%;
+border:1px solid #3ac162;
+border-width: 1px 1px 3px;
+box-shadow:0 -1px 0 rgba(255,255,255,0.1) inset;
+margin-bottom: 10px;
+}
+</style>
+<body>
+<form action="" method="POST">
+<h1>Registration Form</h1>
+<fieldset>
+<legend><span class="section">1</span>Your Basic Info</legend>
+<label class="" for="name">Name:</label>
+<input type="text" name="name">
+<label for="email">Email:</label>
+<input type="email" name="email">
+<label for="password">Password:</label>
+<input type="password" name="password">
+<label for="dob">Date of Birth:</label>
+<input type="date" name="dob">
+<label for="address">Address:</label>
+<input type="text" name="address">
+<label for="img_url">Image URL:</label>
+<input type="text" name="img_url">
+<label for="contact">Contact No:</label>
+<input type="text" name="address">
+<label for="bio">Bio:</label>
+<textarea name="bio"></textarea>
+
+<label for="interest">Interest:</label>
+<input type="text" name="interest">
+
+
+</fieldset>
+<fieldset>
+<legend><span class="section">2</span>Job Details:</legend>
+
+<label for="company_url">Job Role:</label>
+<input type="text" name="company_url">
+
+
+
+<label for="job">Job Role:</label>
+<input type="text" name="job">
+<label for="position">Position:</label>
+<input type="text" name="position">
+<label for="Start">Date of Joining:</label>
+<input type="date" name="start">
+<label for="current">Current Project:</label>
+<input type="text" name="job">
+
+
+<label for="salary">Salary:</label>
+<input type="text" name="salary">
+
+
+
+
+
+
+
+
+
+</fieldset>
+<fieldset>
+<legend><span class="section">3</span>Company Details:</legend>
+<label for="company_name">Company Name:</label>
+<input type="text" name="company_name">
+
+
+<label for="company_url">Company URL:</label>
+<input type="text" name="company_url">
+<label for="address1">Company Address:</label>
+<input type="text" name="address1">
+<label for="logo_url">Company Logo:</label>
+<input type="text" name="logo_url">
+
+
+
+</fieldset>
+
+<button type="submit" name="submit">Sign Up</button>
+</form>
+</body>
+</html>
